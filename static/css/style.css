@@ -629,20 +629,20 @@ img{
   --------------------------------------------------------------*/
 
   .footer_section{
-     height: 210px;
+    height: 210px;
     width: 100%;
+    margin-top: 70px;
     background-color: rgb(247, 195, 148);
-
    }
    .firstrow_footer{
      display: flex;
     justify-content: space-around; 
-    height: 70%;
+    height: auto;
     width: 100%;
     /* background-color: rgb(141, 77, 141); */
    }
    .logo-sec-footer{
-    height: 150px;
+    height: auto;
     width: 400px;
     text-align: center;
     box-sizing: border-box;   
@@ -652,55 +652,25 @@ img{
     width: 70%;
     margin-top: 42px;
    }
-
   
  /* ------ */
- .footer_center_div1{
-  height: 150px;
-  width: 400px;
-}
-.center_logo_div1{
-  height: 100px;
-  width: 400px;
-  text-align: center;
-}
- .center_logo_div1 img{
-  height: 130px;
-  width: 140px;
-  margin-top: -75px;
- } 
-.footer_icons_div1{
-  height: 50px;
-  width: 400px;
-}
-.footer_icon_ul1{
-  height: 100%;
-  width: 100%;
-  list-style-type: none;
 
-}
-.footer_icon_list1{
-  text-align: center;
-  width: 330px;
-  float: left;
-   list-style-type: none;
-   box-sizing: border-box;
-}
- #footer_icons{
-   font-size: 40px;
-  align-items: center;
-  color: white; 
-  padding-inline: 10px;
-  
- }
-
+    .center_logo_div1_first_row{
+      height: 150px;
+      width: 400px;
+      text-align: center;
+        }
+    .center_logo_div1_first_row img{
+      height: 130px;
+      width: 140px;
+      margin-top: -75px;
+       } 
     .blog_sec{
        height: 150px;
       width: 400px;
       padding-top: 30px;
       box-sizing: border-box;
       color:white; 
-    
    }
     .blog_sec p1{
        color: white; 
@@ -714,116 +684,105 @@ img{
        display: flex;
       justify-content: space-between; 
       height: 50px;
-      
+      margin-top: 5px; 
     }
     .copyright_div{
       text-align: center;
-      width: 35%;
+      width: 33%;
       height: auto;
       color: white; 
     }
+    .footer_icons_div1{
+      text-align: center;
+      height: auto;
+      width: 33%;
+    }
+     #footer_icons{
+       font-size: 40px;
+       text-align: center;
+      color: white; 
+      margin-top: -50px;
+      padding-inline: 10px;
+     }
     .right_side_div{
        display: flex;
-       justify-content: center;
-      width: 40%;    
+       justify-content: start;
+      width: 33%;    
       box-sizing: border-box;
       height: auto;
       color: white; 
     }
-  
-  
+    .right_side_div a{
+      color: white;
+    }
     @media only screen and (max-width: 700px) {
     
       .footer_section{
-        margin-top: -220px;
-        height: auto;
+        margin-top: 100px;
+        height: 600px;
         width: 100%; 
-   
       }
       .firstrow_footer{
         display: block;
        height: auto;
        width: 100%; 
-       margin-top: 400px;
+       margin-top: 00px;
       }
       .logo-sec-footer{
-       height: 0px;
-        width: 100%; 
-        
-
+      display: none;
        }
-       
-       .center_logo_div1{
-         width: 100%;
-        height: 100px;
-        margin: auto;  
-       }
-       .center_logo_div1 img{
-           height: 60%;
-        width: 25%;
-        margin-top: -40px; 
-      
-       }
-       
-       .footer_icon_ul1{
-        margin-top: 0px;
-        height: 50px;
-        width: 100%;  
-        box-sizing: border-box;
-       }
-       .footer_icon_list1{
+       .center_logo_div1_first_row{
+        height: 70px;
+        width: 100%;
         text-align: center;
-        width: 90%;
-    
       }
-      
-     
-    
-       #footer_icons{
-        font-size: 40px;
-       align-items: center;
-       color: white; 
-       padding-inline: 10px;
-       box-sizing: border-box;
-       
-      }
-    
-    
+       .center_logo_div1_first_row img{
+        height: 100px;
+        width: 35%;
+        margin-top: -58px;
+       } 
         .blog_sec{
           margin-top: 0px;
-           height: 190px;
+          height: 130px;
           width: 100%;
           text-align: center;
-          padding-top: 30px;
-          box-sizing: border-box;  
-
+          padding-top: 0px;
+          box-sizing: border-box; 
        }
          
     /* second row start */
     .secondrow_footer{
-       margin-top: 0px;
-      display: block; 
-    width: 100%;
-    height: 300px;
-    text-align: center;
-     
-   
+        margin-top: 0px;  
+        display: block; 
+        width: 100%;
+        height: auto;
+        text-align: center;   
    }
-  
    .copyright_div{
     padding-left: 0px;
     width: 100%;
+    height: 70px; 
+  }
+  .footer_icons_div1{
+    text-align: center;
     height: 70px;
-    
+    width: 100%;
+  }
+  #footer_icons{
+    margin-top: 0px;
   }
   .right_side_div{
-    text-align: center;
     width: 100%;    
     height: 70px;
-  
+    text-align: center;
   }  
-    
+  .right_side_div p{
+    text-align: center;
+    padding-left: 30px;
+  }
     }
+
+
 
 /* Anshu css Start */
 *
